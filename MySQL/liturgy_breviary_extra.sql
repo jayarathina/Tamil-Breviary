@@ -4,9 +4,9 @@
 --
 
 --
--- Indexes for table `morning`
+-- Indexes for table `proper`
 --
-ALTER TABLE `morning`
+ALTER TABLE `proper`
   ADD PRIMARY KEY (`dayID`);
 
 --
