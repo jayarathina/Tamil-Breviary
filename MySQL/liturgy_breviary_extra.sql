@@ -52,6 +52,12 @@ ALTER TABLE `text__hymns`
   ADD PRIMARY KEY (`refKey`);
 
 --
+-- Indexes for table `text__psalms`
+--
+ALTER TABLE `text__psalms`
+  ADD PRIMARY KEY (`refKey`);
+
+--
 -- Indexes for table `text__scripture`
 --
 ALTER TABLE `text__scripture`
