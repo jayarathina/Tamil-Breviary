@@ -10,6 +10,13 @@ ALTER TABLE `proper__concludingprayer`
   ADD PRIMARY KEY (`dayID`);
 
 --
+-- Indexes for table `proper__feasts`
+--
+ALTER TABLE `proper__feasts`
+  ADD PRIMARY KEY (`feast_month`,`feast_date`,`feast_code`),
+  ADD UNIQUE KEY `feast_en` (`feast_code`);
+
+--
 -- Indexes for table `proper__gsc_antiphon`
 --
 ALTER TABLE `proper__gsc_antiphon`
@@ -19,6 +26,12 @@ ALTER TABLE `proper__gsc_antiphon`
 -- Indexes for table `proper__intercessions`
 --
 ALTER TABLE `proper__intercessions`
+  ADD PRIMARY KEY (`dayID`);
+
+--
+-- Indexes for table `proper__invitatory`
+--
+ALTER TABLE `proper__invitatory`
   ADD PRIMARY KEY (`dayID`);
 
 --
